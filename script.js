@@ -59,11 +59,7 @@ function mathOperation(){
     else if (lastOperation === '-') {
         result = parseFloat(result) - parseFloat(dis2Num);
     }
-    else if (lastOperation === '/') {
-        if (parseFloat(dis2Num) === '0') {
-            display2E1.innerText = 'no way jose';
-            return;
-        }
+    else if (lastOperation === '/' ) {
         result = parseFloat(result) / parseFloat(dis2Num);
     }
     else if (lastOperation === '&') {
